@@ -41,3 +41,7 @@ models:
     gold:
       +materialized: table
       schema: gold
+
+seeds:
+  dhruv_dbt:
+    +schema: bronze
